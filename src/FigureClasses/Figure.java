@@ -1,10 +1,15 @@
-package FigureClasses.figures;
+package FigureClasses;
 
 class Figure {
 
     private String kind;
     private String space;
     private String color;
+
+    public Figure(String kind, String color) {
+        this.kind = kind;
+        this.color = color;
+    }
 
     public Figure(String kind, String space, String color) {
         this.kind = kind;

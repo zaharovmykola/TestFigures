@@ -1,6 +1,7 @@
-package FigureClasses.figures;
+package FigureClasses;
 
 class Circle extends Figure {
+
     private String radius;
 
     public Circle(String kind, String space, String color, String radius) {
@@ -19,8 +20,8 @@ class Circle extends Figure {
     @Override
     public String toString() {
         return "Фигура: " + getKind() +
-                " , площадь: " + getSpace() +
+                ", площадь: " + getSpace() +
                 " кв. ед., радиус: " + radius +
-                " ед., цвет: " + getColor() + "\n";
+                " ед., цвет: " + getColor();
     }
 }

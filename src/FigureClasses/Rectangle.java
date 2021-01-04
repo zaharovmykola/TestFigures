@@ -1,6 +1,7 @@
-package FigureClasses.figures;
+package FigureClasses;
 
-public class Rectangle extends Figure {
+class Rectangle extends Figure {
+
     private String hypotenuse;
 
     public Rectangle(String kind, String space, String color, String hypotenuse) {
@@ -19,8 +20,8 @@ public class Rectangle extends Figure {
     @Override
     public String toString() {
         return "Фигура: " + getKind() +
-                " , площадь: " + getSpace() +
+                ", площадь: " + getSpace() +
                 " кв. ед., гипотенуза: " + hypotenuse +
-                " ед., цвет: " + getColor() + "\n";
+                " ед., цвет: " + getColor();
     }
 }

@@ -1,6 +1,7 @@
-package FigureClasses.figures;
+package FigureClasses;
 
 class Square extends Figure {
+
     private String side;
 
     public Square(String kind, String space, String color, String side) {
@@ -19,8 +20,8 @@ class Square extends Figure {
     @Override
     public String toString() {
         return "Фигура: " + getKind() +
-                " , площадь: " + getSpace() +
+                ", площадь: " + getSpace() +
                 " кв. ед., длина стороны: " + side +
-                " ед., цвет: " + getColor() + "\n";
+                " ед., цвет: " + getColor();
     }
 }

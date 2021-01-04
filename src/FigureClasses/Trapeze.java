@@ -1,6 +1,7 @@
-package FigureClasses.figures;
+package FigureClasses;
 
 class Trapeze extends Figure {
+
     private String height;
 
     public Trapeze(String kind, String space, String color, String height) {
@@ -19,8 +20,8 @@ class Trapeze extends Figure {
     @Override
     public String toString() {
         return "Фигура: " + getKind() +
-                " , площадь: " + getSpace() +
+                ", площадь: " + getSpace() +
                 " кв. ед., высота: " + height +
-                " ед., цвет: " + getColor() + "\n";
+                " ед., цвет: " + getColor();
     }
 }
