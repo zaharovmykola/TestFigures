@@ -21,6 +21,6 @@ class Circle extends Figure {
         return "Фигура: " + getKind() +
                 " , площадь: " + getSpace() +
                 " кв. ед., радиус: " + radius +
-                " ед., цвет: " + getColor();
+                " ед., цвет: " + getColor() + "\n";
     }
 }

@@ -21,6 +21,6 @@ class Square extends Figure {
         return "Фигура: " + getKind() +
                 " , площадь: " + getSpace() +
                 " кв. ед., длина стороны: " + side +
-                " ед., цвет: " + getColor();
+                " ед., цвет: " + getColor() + "\n";
     }
 }

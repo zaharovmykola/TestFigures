@@ -21,6 +21,6 @@ public class Rectangle extends Figure {
         return "Фигура: " + getKind() +
                 " , площадь: " + getSpace() +
                 " кв. ед., гипотенуза: " + hypotenuse +
-                " ед., цвет: " + getColor();
+                " ед., цвет: " + getColor() + "\n";
     }
 }

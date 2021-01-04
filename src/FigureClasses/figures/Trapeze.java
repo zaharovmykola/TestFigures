@@ -21,6 +21,6 @@ class Trapeze extends Figure {
         return "Фигура: " + getKind() +
                 " , площадь: " + getSpace() +
                 " кв. ед., высота: " + height +
-                " ед., цвет: " + getColor();
+                " ед., цвет: " + getColor() + "\n";
     }
 }
